@@ -98,6 +98,7 @@
         .rounded-circle {
             border: 3px solid #007bff; /* Border for profile image */
         }
+
         footer {
             margin-top: 20px;
             text-align: center;
@@ -126,6 +127,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#internships">Internships</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#skills">Skills</a>
@@ -182,6 +186,25 @@
         </div>
     </section>
 
+    <!-- Internships Section -->
+    <section id="internships" class="py-5">
+        <div class="container">
+            <h2 class="section-heading text-center">Internships</h2>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Weather Forecasting App</h5>
+                    <p class="card-text">Developed a weather application that retrieves data from an API to show current weather conditions and forecasts for various locations.</p>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel Management System (Java Project)</h5>
+                    <p class="card-text">Developed a Java-based "Hotel Management System" that allows efficient management of hotel operations including bookings, check-in/check-out processing, room availability tracking, and billing. This project highlights core Java principles, object-oriented programming, and effective use of data structures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Skills Section -->
     <section id="skills" class="py-5 bg-light">
         <div class="container">
@@ -194,7 +217,8 @@
                 <li class="list-group-item">MySQL</li>
                 <li class="list-group-item">JavaScript</li>
                 <li class="list-group-item">Java</li>
-                <li class="list-group-item">Languages: English, Telugu</li>
+                <li class="list-group-item">SQL</li>
+                <li class="list-group-item">Power BI</li>
             </ul>
         </div>
     </section>
@@ -203,15 +227,35 @@
     <section id="contact" class="py-5">
         <div class="container">
             <h2 class="section-heading text-center">Contact Me</h2>
-            <p class="text-center">Phone: 9347571442</p>
-            <p class="text-center">Email: <a href="mailto:maddlasurya504@gmail.com">maddlasurya504@gmail.com</a></p>
-            <div class="text-center social-icons">
-                <a href="https://linkedin.com/in/maddala-surya-babu-692450242" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/smartboy122" target="_blank"><i class="fab fa-github"></i></a>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Maddla Surya Babu. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:maddlasurya504@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
-        </section>
-        <footer>
-                <p>&copy; 2024 Maddla Surya Babu</p>
-            </footer>
-            </div>
-            </body>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
